@@ -1,33 +1,39 @@
-# SGTur - Sistema Completo para Gestão de Agências de Turismo
+# SGTur - Sistema para Gestão de Agências de Turismo
 
-Bem-vindo ao **SGTur**, a plataforma ideal para gerenciar sua agência de turismo de forma eficiente e intuitiva. Oferecemos uma solução completa, com funcionalidades que atendem todas as suas necessidades e planos de assinatura flexíveis, para que você possa escolher a melhor opção para o seu negócio.
+Este repositório contém o código-fonte do **SGTur**, uma plataforma desenvolvida para otimizar a gestão de agências de turismo. Nosso objetivo é fornecer uma solução robusta e intuitiva, com funcionalidades que atendem desde pequenas até grandes agências.
 
-## Funcionalidades
+## Funcionalidades Principais:
 
-O SGTur possui diversas funcionalidades que tornam a gestão de sua agência mais fácil e eficiente:
+- **Gestão de Reservas**: Controle e organização das reservas de clientes.
+- **Relatórios**: Geração de relatórios detalhados sobre vendas, comissões e desempenho.
+- **Gestão de Vendas e Comissões**: Acompanhamento de transações e distribuição de comissões.
+- **Integração com Pagamentos**: Conexão com diferentes sistemas de pagamento.
 
-- **Gestão de Agendas e Reservas**: Controle todas as reservas de seus clientes de maneira simples e organizada.
-- **Relatórios Detalhados**: Acompanhe o desempenho de sua agência com relatórios completos e atualizados.
-- **Controle de Vendas e Comissões**: Gerencie as vendas de pacotes turísticos e as comissões de sua equipe com facilidade.
+### Estrutura do Projeto
 
-## Planos de Assinatura
+O projeto é dividido em módulos que podem ser expandidos conforme a necessidade:
 
-Escolha o plano que melhor atende às necessidades de sua agência. Temos opções flexíveis para que você possa começar a usar o SGTur de acordo com o seu orçamento e os requisitos do seu negócio.
+- **Frontend**: Desenvolvido com **Angular**, garantindo uma interface intuitiva e de fácil navegação.
+- **Backend**: API robusta desenvolvida com **Spring Boot**, que gerencia os dados e integra com sistemas externos, como gateways de pagamento.
+- **Banco de Dados**: Utiliza **PostgreSQL**, proporcionando uma estrutura escalável e confiável para armazenar informações.
+- **CI/CD**: Implementado com **GitHub Actions**, facilitando a automação de testes, build e deploy.
 
-- **Plano Básico**: Ideal para pequenas agências. Inclui funcionalidades essenciais para gerenciar reservas e vendas.
-- **Plano Profissional**: Para agências de médio porte, com recursos avançados como relatórios detalhados e integração com sistemas externos.
-- **Plano Corporativo**: Solução completa para grandes agências, com suporte dedicado, personalização e integrações adicionais.
+### Como Contribuir
 
-## Por que escolher o SGTur?
+1. **Clone o Repositório**: `git clone https://github.com/sgtur/sgtur.git`
+2. **Crie uma Branch**: `git checkout -b feature/nova-funcionalidade`
+3. **Faça suas alterações** e escreva testes, se necessário.
+4. **Submeta um Pull Request** com uma descrição detalhada das mudanças.
 
-- **Facilidade de Uso**: Interface intuitiva e fácil de navegar, ideal para todos os tipos de usuários.
-- **Suporte Dedicado**: Nossa equipe está pronta para ajudar em qualquer necessidade, garantindo que você tenha a melhor experiência possível.
-- **Segurança**: Seus dados estão protegidos com as mais modernas tecnologias de segurança, garantindo a integridade e confidencialidade das informações.
+### Tecnologias Usadas:
 
-## Conclusão
+- **Frontend**: Angular
+- **Backend**: Spring Boot
+- **Banco de Dados**: PostgreSQL
+- **CI/CD**: GitHub Actions
 
-O SGTur é a solução completa que sua agência de turismo precisa para crescer e prosperar. Com uma interface amigável, funcionalidades poderosas e suporte dedicado, você pode focar no que realmente importa: oferecer experiências incríveis para seus clientes.
+### Suporte
 
----
+Se precisar de ajuda ou tiver alguma dúvida, entre em contato com a equipe de desenvolvimento através do canal [Slack/Discord/Email].
 
-**SGTur - Transformando a gestão de agências de turismo.**
+**Vamos construir juntos uma plataforma cada vez mais eficiente para agências de turismo!**
